@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  background: #d5e1ef;
+}
+
+.wrapper {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.qr__code {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  max-width: 375px;
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (min-width: 376px) {
+  .container {
+    max-width: 1440px;
+  }
+}
+.qr__code__content {
+  background: white;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+@media screen and (min-width: 376px) {
+  .qr__code__content {
+    max-width: 450px;
+  }
+}
+.qr__image {
+  width: 100%;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.qr__image img {
+  width: 100%;
+}
+
+.qr__header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.qr__header h2 {
+  color: #242c4f;
+  font-weight: 700;
+  font-size: 22px;
+  font-family: "Outfit", sans-serif;
+}
+
+.qr__text {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.qr__text p {
+  font-weight: 400;
+  font-size: 15px;
+  font-family: "Outfit", sans-serif;
+  line-height: 1.5;
+}
